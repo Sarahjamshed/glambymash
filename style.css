@@ -91,7 +91,7 @@ header {
     background: #a77b68;
 }
 
-/* Hamburger button (shown on small screens only) */
+/* Hamburger button */
 .menu-toggle {
     display: none;
     flex-direction: column;
@@ -852,7 +852,7 @@ button:focus-visible,
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(4, auto);
-    grid-auto-flow: column;      /* 7 items: 4 in the left column, 3 in the right */
+    grid-auto-flow: column;      
     column-gap: 70px;
     text-align: left;
 }
